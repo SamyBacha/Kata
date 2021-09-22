@@ -48,6 +48,11 @@ public class UnboundedAccount implements Account{
     }
 
     @Override
+    public void printStatement() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) {
             return true;

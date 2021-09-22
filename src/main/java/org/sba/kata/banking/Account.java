@@ -7,4 +7,6 @@ public interface Account {
   void withdraw(final Money anAmount);
 
   void transfer(Money money, Account destinationAccount);
+
+  void printStatement();
 }
